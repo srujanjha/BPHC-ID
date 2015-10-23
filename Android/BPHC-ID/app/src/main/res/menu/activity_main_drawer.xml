@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/sync" android:icon="@android:drawable/ic_menu_set_as"
+            android:title="Sync" />
+    </group>
+
+    <item android:title="Links">
+        <menu>
+            <item android:id="@+id/nav_bits" android:icon="@drawable/bits"
+                android:title="BITS-Home Page" />
+            <item android:id="@+id/nav_cms" android:icon="@drawable/bits"
+                android:title="CMS" />
+            <item android:id="@+id/nav_swd" android:icon="@drawable/bits"
+                android:title="SWD" />
+            <item android:id="@+id/nav_shoutboxx" android:icon="@drawable/bits"
+                android:title="ShoutBoxx" />
+        </menu>
+    </item>
+    <item android:title="Feedback">
+        <menu>
+            <item android:id="@+id/ratemyapp" android:icon="@drawable/ic_play"
+                android:title="Rate this app" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,430 @@
+\document
+[
+  Info
+  {
+    Title = "VSN MURTHY"
+    Subject = "Details of rooms and invigilators for your course(s)"
+    Author = "BPHC-Instruction Division"
+  }
+]
+{
+  \styles
+  {
+    Normal
+    {
+      Font
+      {
+        Name = "Times New Roman"
+      }
+    }
+
+    Heading1
+    {
+      Font
+      {
+        Name = "Tahoma"
+        Size = 14
+        Bold = true
+        Color = DarkBlue
+      }
+      ParagraphFormat
+      {
+        SpaceAfter = 6
+        OutlineLevel = Level1
+      }
+    }
+
+    Heading2
+    {
+      Font
+      {
+        Size = 12
+      }
+      ParagraphFormat
+      {
+        SpaceBefore = 6
+        OutlineLevel = Level2
+      }
+    }
+
+    Heading3
+    {
+      Font
+      {
+        Size = 10
+        Italic = true
+      }
+      ParagraphFormat
+      {
+        SpaceAfter = 3
+        OutlineLevel = Level3
+      }
+    }
+
+    Heading4
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level4
+      }
+    }
+
+    Heading5
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level5
+      }
+    }
+
+    Heading6
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level6
+      }
+    }
+
+    Heading7
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level7
+      }
+    }
+
+    Heading8
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level8
+      }
+    }
+
+    Heading9
+    {
+      ParagraphFormat
+      {
+        OutlineLevel = Level9
+      }
+    }
+
+    Header
+    {
+      ParagraphFormat
+      {
+        TabStops +=
+        {
+          Position = "16cm"
+          Alignment = Right
+        }
+      }
+    }
+
+    Footer
+    {
+      ParagraphFormat
+      {
+        TabStops +=
+        {
+          Position = "8cm"
+          Alignment = Center
+        }
+      }
+    }
+
+    InvalidStyleName
+    {
+      Font
+      {
+        Bold = true
+        Underline = Dash
+        Color = Lime
+      }
+    }
+
+    TextBox : Normal
+    {
+      ParagraphFormat
+      {
+        Alignment = Justify
+        Borders
+        {
+          Width = 2.5
+          DistanceFromTop = 3
+          DistanceFromBottom = 3
+          DistanceFromLeft = 3
+          DistanceFromRight = 3
+        }
+        Shading
+        {
+          Color = SkyBlue
+        }
+      }
+    }
+
+    TOC : Normal
+    {
+      Font
+      {
+        Color = Blue
+      }
+      ParagraphFormat
+      {
+        TabStops +=
+        {
+          Position = "16cm"
+          Alignment = Right
+          Leader = Dots
+        }
+      }
+    }
+  }
+  \section
+  [
+    PageSetup
+    {
+      Orientation = Landscape
+    }
+  ]
+  {
+    \paragraph
+    [
+      Style = "Heading1"
+      Format
+      {
+        Alignment = Center
+      }
+    ]
+    {
+      BIRLA INSTITUTE OF TECHNOLOGY AND SCIENCE-PILANI, HYDERABAD CAMPUS
+    }
+    \paragraph
+    [
+      Style = "Heading1"
+      Format
+      {
+        Alignment = Center
+      }
+    ]
+    {
+      INSTRUCTION DIVISION
+    }
+    \paragraph
+    [
+      Style = "Heading2"
+      Format
+      {
+        Alignment = Center
+      }
+    ]
+    {
+      FIRST SEMESTER 2015-2016
+    }
+    \paragraph
+    [
+      Style = "Heading2"
+    ]
+    {
+      Instructor-in-charge  Prof./ Dr./ Mr./ Ms.  VSN MURTHY           Group : PHY                               
+    }
+    \paragraph
+    [
+      Style = "Heading2"
+    ]
+    {
+      Details of rooms and invigilators for your course(s):
+    }
+    \table
+    [
+      Borders
+      {
+        Width = 0.75
+      }
+    ]
+    {
+      \columns
+      {
+        \column
+        [
+          Format
+          {
+            Alignment = Center
+          }
+          Width = "1.3cm"
+        ]
+        \column
+        [
+          Format
+          {
+            Alignment = Center
+          }
+          Width = "2cm"
+        ]
+        \column
+        [
+          Format
+          {
+            Alignment = Center
+          }
+          Width = "4cm"
+        ]
+        \column
+        [
+          Format
+          {
+            Alignment = Center
+          }
+          Width = "2cm"
+        ]
+        \column
+        [
+          Format
+          {
+            Alignment = Center
+          }
+          Width = "2.5cm"
+        ]
+        \column
+        [
+          Format
+          {
+            Alignment = Center
+          }
+          Width = "4cm"
+        ]
+        \column
+        [
+          Format
+          {
+            Alignment = Center
+          }
+          Width = "6cm"
+        ]
+        \column
+        [
+          Format
+          {
+            Alignment = Center
+          }
+          Width = "2cm"
+        ]
+      }
+      \rows
+      {
+        \row
+        [
+          Shading
+          {
+            Color = PaleGoldenrod
+          }
+        ]
+        {
+          \cell
+          {
+            CODE
+          }
+          \cell
+          {
+            COURSE NO
+          }
+          \cell
+          {
+            COURSE TITLE
+          }
+          \cell
+          {
+            DATE
+          }
+          \cell
+          {
+            TIME
+          }
+          \cell
+          {
+            ROOM
+          }
+          \cell
+          {
+            INVIGILATOR
+          }
+          \cell
+          {
+            GROUP
+          }
+        }
+        \row
+        {
+          \cell
+          {
+            1859
+          }
+          \cell
+          {
+            PHY F112
+          }
+          \cell
+          {
+            GENERAL PHYSICS
+          }
+          \cell
+          {
+            15/9,6/11
+          }
+          \cell
+          {
+            8.30-9.30 AM
+          }
+          \cell
+          {
+            B307
+          }
+          \cell
+          {
+            VSN Murthy
+          }
+          \cell
+          {
+            PHY
+          }
+        }
+      }
+    }
+    \paragraph
+    [
+      Style = "Heading3"
+    ]
+    {
+      1. In courses with less strength (viz. a course in which upto 45 students are registered), the Instructor-In-Charge is the only invigilator.
+    }
+    \paragraph
+    [
+      Style = "Heading3"
+    ]
+    {
+      2. In case of any problems, contact  Prof. P K Sahoo (In-charge, Test Scheduling).
+    }
+    \paragraph
+    [
+      Style = "Heading2"
+      Format
+      {
+        Alignment = Right
+      }
+    ]
+    {
+      ASSOCIATE DEAN
+    }
+    \paragraph
+    [
+      Style = "Heading2"
+      Format
+      {
+        Alignment = Right
+      }
+    ]
+    {
+      INSTRUCTION DIVISION
+    }
+  }
+}

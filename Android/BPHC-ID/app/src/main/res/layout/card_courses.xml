@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardCourses"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="7dp"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:alpha="0.9"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Course Name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/primary_text"
+                android:id="@+id/txtCourseName" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="T1-Date:"
+                android:id="@+id/txtT1Date"
+                android:textColor="@color/primary_text"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="T2-Date:"
+                android:id="@+id/txtT2Date"
+                android:textColor="@color/primary_text"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+        android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/primary_text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Time:"
+        android:id="@+id/txtTime" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/primary_text"
+                android:text="Room No.:"
+                android:id="@+id/txtRoomNo" />
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llBack"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/accent"
+                android:alpha="0.3"
+                android:orientation="vertical"
+                />
+            <LinearLayout
+                android:id="@+id/llFront"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/bits_tag"
+                android:orientation="vertical"
+                />
+        </RelativeLayout>
+        </android.support.v7.widget.CardView>
+</LinearLayout>
