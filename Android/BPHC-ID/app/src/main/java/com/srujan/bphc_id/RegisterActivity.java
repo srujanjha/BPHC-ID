@@ -115,8 +115,8 @@ public class RegisterActivity extends AppCompatActivity implements
         btnNext.setEnabled(false);
         try {
             mClient = new MobileServiceClient(
-                    "https://bphc-id.azure-mobile.net/",
-                    "baAsGGdkVmCtxhKBpnhDHOANERJLEG92",
+                    "<Mobile-Client>",
+                    "<Key>",
                     this);
             mStudentsTable = mClient.getTable(Students.class);
             mSeatingTable = mClient.getTable(Seating.class);
